@@ -1,0 +1,37 @@
+Data is in xml format
+OSM has 3 main elements. They can have subtypes in form of different key tags.
+1. Node 
+    A point in space
+    Has properties like
+        tag(optional)
+            k="name" v="nodeName"
+            
+        lon (longitude)
+        lat (latitude)
+
+        id
+
+    *As each node is independent and unknown about the presence of other node;
+    *If used as graph, we need to add info to each node about neighbour nodes using ways.
+2. Ways
+    List of nodes
+    Ways can be open or closed
+    Roads, highway, ringroad all are considered open roads
+    Closed Ways are Area like park, starbucks etc.
+    Has properties like 
+        tag
+            k="" v=""
+        
+        nd ref list (list of nodes)
+
+        id
+
+3. Relations
+    List of ways and nodes
+    Has properties like
+        tag
+            k="" v=""
+        
+        member list 
+            type="" ref="" role=""
+        
