@@ -1,4 +1,3 @@
-This will be my first project ever.
 Hopes it helps me or someone.
 
 Project will be based on search for direction just like google maps. Data taken is from openStreetMap (Thanks for providing this).
